@@ -4,7 +4,8 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"time"
+
+	// "time"
 
 	proto "github.com/Chocobone/GDG_backend_sideProject/server/pb" // 올바른 경로로 수정
 	"google.golang.org/grpc"
@@ -47,10 +48,8 @@ func main() {
 		fmt.Printf("Market: %s\n", response.GetMarket())
 		fmt.Printf("Trade Price: %d\n", response.GetTradePrice())
 		fmt.Printf("Trade Time: %s\n", response.GetTradeTime())
-		fmt.Printf("Change: %s\n", response.GetChange())
 		// 추가적으로 필요한 응답 항목을 출력
 	}
 
 	// 5초 대기 후 종료 (예시로 요청을 보낸 뒤 잠시 대기)
-	time.Sleep(1 * time.Second)
 }
