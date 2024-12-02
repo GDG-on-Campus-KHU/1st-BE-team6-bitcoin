@@ -9,7 +9,7 @@ service Monitoring_Service {
 }
 
 message Monitoring_request {
-  string start_monitoring = 1;
+  string start_monitoring = 1; //ex: "KRW-BTC"
 }
 
 message Monitoring_response {

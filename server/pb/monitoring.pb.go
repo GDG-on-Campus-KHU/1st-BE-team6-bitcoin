@@ -25,7 +25,7 @@ type MonitoringRequest struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	StartMonitoring string `protobuf:"bytes,1,opt,name=start_monitoring,json=startMonitoring,proto3" json:"start_monitoring,omitempty"`
+	StartMonitoring string `protobuf:"bytes,1,opt,name=start_monitoring,json=startMonitoring,proto3" json:"start_monitoring,omitempty"` //ex: "KRW-BTC"
 }
 
 func (x *MonitoringRequest) Reset() {
