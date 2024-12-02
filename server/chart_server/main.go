@@ -45,9 +45,9 @@ func main() {
 		}
 
 		// 응답 출력
-		fmt.Printf("Market: %s\n", response.GetMarket())
+		fmt.Printf("Market: %s\n", response.GetMarket()) //현 시장 (원 - 비트코인)
 		fmt.Printf("Trade Price: %d\n", response.GetTradePrice())
-		fmt.Printf("Trade Time: %s\n", response.GetTradeTime())
+		fmt.Printf("Trade Time: %s\n", response.GetTradeTimeKst())
 		// 추가적으로 필요한 응답 항목을 출력
 	}
 
