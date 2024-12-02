@@ -1,3 +1,4 @@
+//proto/monitoring.proto
 syntax = "proto3";
 
 package monitoring;
