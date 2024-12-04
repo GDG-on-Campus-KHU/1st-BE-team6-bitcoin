@@ -8,6 +8,7 @@ require (
 )
 
 require (
+	github.com/go-echarts/go-echarts/v2 v2.4.5 // indirect
 	golang.org/x/net v0.29.0 // indirect
 	golang.org/x/sys v0.25.0 // indirect
 	golang.org/x/text v0.18.0 // indirect
