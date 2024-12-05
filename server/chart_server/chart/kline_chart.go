@@ -95,7 +95,7 @@ func GenerateKLineChart() *charts.Kline {
 // gRPC로 데이터 가져오기
 func FetchBitcoinData() {
 	// gRPC 서버 연결
-	conn, err := grpc.Dial("localhost:50051", grpc.WithInsecure())
+	conn, err := grpc.Dial("35.216.2.146:50051", grpc.WithInsecure())
 	if err != nil {
 		log.Fatalf("gRPC 서버 연결 실패: %v", err)
 	}
