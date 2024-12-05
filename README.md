@@ -23,20 +23,22 @@
 <!-- markdownlint-disable -->
 ---
 
-### ✅ 프로젝트 개요
+### 📃 프로젝트 개요
 
 ```go
 본 프로젝트는 GCP 환경에서 gRPC api를 활용해 Bitcoin 정보를 가져와
 차트 형태로 보여주며 코인 정보 모니터링을 도와주는 프로젝트입니다.
 ```
 
-### ✅ 아키텍처 키워드
+### ⭐ 아키텍처 키워드
 
 ```go
 - gRPC: 각 서비스는 gRPC로 통신
 - GCP : 구글 클라우드 환경에 적용
 ```
-
+![gRPC](https://img.shields.io/badge/gRPC-brightgreen?style=for-the-badge)
+![GCP](https://img.shields.io/badge/GCP-orange?style=for-the-badge)
+![Golang](https://img.shields.io/badge/Golang-blue?style=for-the-badge)
 ### ✅ 주요 기능
 - **REST API를 지원하는 gRPC 서버 구축** : 효율적이고 확장 가능한 서비스를 위한 gRPC 기반 서버 제공
 - **CandleStick chart** : 비트코인 데이터 시각화
