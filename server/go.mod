@@ -1,6 +1,6 @@
 module github.com/Chocobone/GDG_backend_sideProject/server
 
-go 1.23.1
+go 1.23
 
 require (
 	google.golang.org/grpc v1.68.0

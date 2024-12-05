@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  api_server:
+    build:
+      context: ./api_server
+      dockerfile: Dockerfile
+    ports:
+      - "50051:50051"
+    depends_on:
+      - chart_server
+    networks:
+      - backend
+
+  chart_server:
+    build:
+      context: ./chart_server
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
